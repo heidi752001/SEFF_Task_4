@@ -1,0 +1,133 @@
+html{
+    background-image: url(../images/img.jpg);
+    background-repeat: no-repeat;
+    background-size:  1500px 1500px;
+}
+.div1{
+    width: 250px;
+    height: 150px;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    animation-name: change_1 ;
+    animation-duration: 3s ;
+    animation-delay: 6s;
+    position: absolute;
+    animation-timing-function: linear ;
+    animation-timing-function: ease ;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+@keyframes change_1 {
+    0% {background-color: black; left:0px;}
+   100% {background-color: white; left:1080px;}
+}
+.div2{
+    margin-top: 160px;
+    margin-left: 1000px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../images/2.jpg);
+    background-size: cover;
+    animation-name: change_2 ;
+    animation-duration: 3s ;
+    animation-delay: 9s;
+    position: absolute;
+    animation-timing-function: linear ;
+    animation-timing-function: ease ;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+@keyframes change_2 {
+    0% {background-color: blue; right:0px;}
+   100% {background-color: white; right:1080px;}
+}
+.div3{
+    margin-top: 320px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../images/3.jpg);
+    background-size: cover;
+    animation-name: change_3 ;
+    animation-duration: 3s ;
+    animation-delay: 12s;
+    position: absolute;
+    animation-timing-function: linear ;
+    animation-timing-function: ease ;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+@keyframes change_3 {
+    0% {background-color: blueviolet; left:0px;}
+   100% {background-color: white; left:1080px;}
+}
+.div4{
+    margin-top: 480px;
+    margin-left: 1000px;
+    width: 250px;
+    height: 150px;
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    animation-name: change_4 ;
+    animation-duration: 3s ;
+    animation-delay: 15s;
+    position: absolute;
+    animation-timing-function: linear ;
+    animation-timing-function: ease ;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+@keyframes change_4 {
+    0% {background-color: brown; right:0px;}
+   100% {background-color: white; right:1080px;}
+}
+.div5{
+    margin-top: 640px;
+    width: 250px;
+    height: 140px;
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+    animation-name: change_5 ;
+    animation-duration: 3s ;
+    animation-delay: 18s;
+    position: absolute;
+    animation-timing-function: linear ;
+    animation-timing-function: ease ;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+@keyframes change_5 {
+    0% {background-color: royalblue; left:0px;}
+   100% {background-color: white; left:1080px;}
+}
+.div6{
+    margin-top: 790px;
+    margin-left: 1000px;
+    width: 300px;
+    height: 120px;
+    background-image: url(../images/6.jpg);
+    background-size: cover;
+    animation-name: change_6 ;
+    animation-duration: 3s ;
+    animation-delay: 21s;
+    position: absolute;
+    animation-timing-function: linear ;
+    animation-timing-function: ease ;
+    animation-timing-function: ease-in;
+    animation-timing-function: ease-out;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+@keyframes change_6 {
+    0% {background-color: goldenrod; right:0px;}
+   100% {background-color: white; right:1080px;}
+}
